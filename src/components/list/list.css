@@ -1,0 +1,53 @@
+ul li {
+  color:#3e99d8;
+  border: 1px solid #6a67672e;
+  padding-top: .5%;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.listaduio :hover {
+  background-color: #3e99d8;
+  color: white;
+}
+ ul {
+   list-style-type: none;
+ }
+
+ .container{
+   width:80%;
+   height: 100%;
+ }
+
+ .inline{
+   color: #3d3737;
+   display: grid;
+   grid-template-columns: 97% 3%;
+   justify-content: space-between;
+ }
+
+ form label,
+ form input {
+   display: block;
+   width: 90%
+ }
+
+ form input {
+   padding: 10px;
+   border: solid 1px #BDC7D8;
+
+ }
+
+ .button {
+   background-color: #00BFFF;
+   border-color: #3ac162;
+   font-weight: bold;
+   padding: 12px 15px;
+   color: #ffffff;
+ }
+
+ .errorMsg {
+   color: #cc0000;
+   margin-bottom: 12px;
+ }
