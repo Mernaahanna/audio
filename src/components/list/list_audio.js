@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import './list.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faTimes} from '@fortawesome/free-solid-svg-icons'
-import AddList from './add_list'
 import { Button, Modal} from 'antd';
 
 
@@ -72,7 +71,7 @@ export class ListAudio extends Component {
       track,
       filteredData
     } = this.state
-    return (track ).map((d, index) => {
+    return (track).map((d, index) => {
       return <div className = "listaduio"
       onClick = {
         this.playAudio.bind(this,d.url)
